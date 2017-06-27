@@ -118,15 +118,6 @@ class Url {
 	 * @param string $v        	
 	 * @return \Tian\Url
 	 */
-	public function setPath($v) {
-		$this->path = $v;
-		return $this;
-	}
-	/**
-	 *
-	 * @param string $v        	
-	 * @return \Tian\Url
-	 */
 	public function setFragment($v) {
 		$this->fragment = $v;
 		return $this;
